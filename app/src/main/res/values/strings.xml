@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Tempus</string>
+    <string name="logo">Logo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="intro_txt_home">Confira a previsão do tempo atual e futura em sua cidade.</string>
+    <string name="intro_txt_favorite">Adicione suas cidades favoritas e encontre novas previsões.</string>
+    <string name="intro_initial_hint">Digite sua cidade</string>
+
+    <string name="intro_title_alert_dialog">Localização desativada</string>
+    <string name="intro_text_alert_dialog">Ative-a para usar recursos de localização.</string>
+
+    <string name="intro_toast_error_auto_search">Erro na busca automática</string>
+    <string name="intro_image_description">tela da View</string>
+
+    <string name="network_info_error">Não foi possível carregar as informações,\nVerifique sua conexão e tente novamente.</string>
+    <string name="network_finish_app">Sair do aplicativo</string>
+
+    <string name="info_title_error">Ocorreu um erro</string>
+    <string name="celsius">°</string>
+    <string name="skip">Pular</string>
+    <string name="cancel">Cancelar</string>
+    <string name="update">Atualizar</string>
+    <string name="confirm">Confirmar</string>
+    <string name="try_again">Tente novamente</string>
+
+    <string name="nav_menu_title_home_page">home page</string>
+    <string name="nav_menu_title_favorites_page">favorites page</string>
+
+    <string name="title_rv_home">Previsão - 3 horas</string>
+
+    <string name="wind_speed">wind speed</string>
+    <string name="humidity">humidity</string>
+    <string name="weather">weather</string>
+    <string name="statetext">stateText</string>
+
+    <string name="search">Pesquisar</string>
+    <string name="text_humidity_default">0%</string>
+    <string name="text_visibility_default">10Km</string>
+    <string name="text_wind_speed_default">0Km/h</string>
+    <string name="cd_visibility">ícone de visibilidade</string>
+
+    <string name="delete_favorite_city">Deseja excluir a cidade</string>
+    <string name="error_1">Corpo de resposta nulo.</string>
+    <string name="error_401">Código da Api Inválido.</string>
+    <string name="error_404">Cidade Inválida.</string>
+    <string name="error_429">Limite de chamadas atingido.</string>
+    <string name="error_else">Erro desconhecido.</string>
+
+</resources>

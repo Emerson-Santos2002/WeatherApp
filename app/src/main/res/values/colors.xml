@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_splash_weather_background">#1D2A35</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00FFFFFF</color>
+
+    --APP COLOR--
+
+        --Intro Colors
+        <color name="intro_primary">#1A237E</color>
+        <color name="intro_primary_variant">#1976D2</color>
+        <color name="intro_secondary">#FF4081</color>
+        <color name="intro_secondary_variant">#F50057</color>
+
+        <color name="backgroundAlertDialog">#F3EFEF</color>
+        <color name="textAlertDialog">#BF000000</color>
+
+        <color name="progressIndicatorPrimary">#2196F3</color>
+        <color name="progressIndicatorSecondary">#BBDEFB</color>
+
+        --Light Theme--
+        <color name="background">#64B5F6</color>
+        <color name="background_variant">#3494D6</color>
+        <color name="app_content_color">#FFFFFF</color>
+        <color name="rv_content_color">#CCFFFFFF</color>
+
+        --Favorite Fragment
+        <color name="background_favorite">#5FB3F6</color>
+        <color name="content_box_color_favorite_page">#000000</color>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="icon_padding">12dp</dimen>
+    <dimen name="card_elevation">1dp</dimen> 1-8dp
+    <dimen name="fab_elevation">2dp</dimen> 2-8dp
+    <dimen name="info_weather">12dp</dimen>
+
+</resources>

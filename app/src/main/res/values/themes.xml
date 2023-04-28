@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.App.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/background</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/main_icon_app_foreground</item>
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+        <item name="postSplashScreenTheme">@style/Theme.MyDay</item>
+    </style>
+
+    <style name="Theme.MyDay" parent="Theme.Material3.Light.NoActionBar">
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/intro_primary</item>
+        <item name="colorPrimaryVariant">@color/intro_primary_variant</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/background</item>
+
+        <item name="colorSurface">@color/backgroundAlertDialog</item>
+        <item name="colorOnSurface">@color/black</item>
+        <item name="colorOnSurfaceVariant">@color/textAlertDialog</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/content_box_color_favorite_page</item>
+        <item name="colorSecondaryVariant">@color/intro_secondary_variant</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondaryContainer">@color/background_variant</item>
+
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">@color/app_content_color</item>
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:windowBackground">@color/background</item>
+
+    </style>
+
+    <style name="AutoCompleteTextView" parent="ThemeOverlay.Material3.AutoCompleteTextView.FilledBox.Dense">
+        <item name="background">@null</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+</resources>
