@@ -1,5 +1,6 @@
 package com.example.myday.data.api
 
+import com.example.myday.BuildConfig
 import com.example.myday.data.model.modelresponse.CurrentWeatherResponse
 import com.example.myday.data.model.modelresponse.ForecastWeatherResponse
 import retrofit2.Response
@@ -9,7 +10,7 @@ import retrofit2.http.Query
 interface ApiService {
 
     companion object {
-        private const val KEY_API = "158ecf6ae7ce89ca63dc99eede1d8682"
+        private const val OPEN_WEATHER_API_KEY = BuildConfig.OPEN_WEATHER_API_KEY
     }
 
     /**
@@ -21,7 +22,7 @@ interface ApiService {
         @Query("q") city_name: String?,
         @Query("lang") lang: String = "pt_br",
         @Query("units") units: String = "metric",
-        @Query("appid") key: String = KEY_API
+        @Query("appid") key: String = OPEN_WEATHER_API_KEY
     ) : Response<CurrentWeatherResponse>
 
     /**
@@ -35,6 +36,6 @@ interface ApiService {
         @Query("cnt") timestamp: Int = 8,
         @Query("lang") lang: String = "pt_br",
         @Query("units") units: String = "metric",
-        @Query("appid") key: String = KEY_API
+        @Query("appid") key: String = OPEN_WEATHER_API_KEY
     ) : Response<ForecastWeatherResponse>
 }

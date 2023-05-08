@@ -37,7 +37,7 @@ object Location {
                 context.packageName,
                 PackageManager.GET_META_DATA
             ).metaData
-            .getString(Constants.MY_DAY_API_KEY)
+            .getString(Constants.GOOGLE_PLACES_API_KEY)
             .toString()
     }
 }

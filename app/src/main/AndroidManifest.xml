@@ -17,8 +17,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.App.Splash">
         <meta-data
-            android:name="MY_DAY_API_KEY"
-            android:value="${MY_DAY_API_KEY}" />
+            android:name="GOOGLE_PLACES_API_KEY"
+            android:value="${GOOGLE_PLACES_API_KEY}" />
+        <meta-data
+            android:name="OPEN_WEATHER_API_KEY"
+            android:value="${OPEN_WEATHER_API_KEY}" />
         <activity
             android:name=".ui.activity.SplashActivity"
             android:exported="true"
