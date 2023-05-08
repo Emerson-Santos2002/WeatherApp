@@ -73,7 +73,7 @@ Faça o download da <a href="apk/tempus.apk?raw=true">APK diretamente</a>. Você
 
 ## API de terceiros
 
- -Tempus usa:-<br>
+- Tempus usa:<br>
   - [OpenWeatherAPI](https://openweathermap.org/api) para suas chamadas REST.<br>
   - [AppIntro](https://github.com/AppIntro/AppIntro) do usuário do Github[AppIntroTeam](https://github.com/AppIntro): Para criar uma introdução em carrosel para o aplicativo.<br>
 
