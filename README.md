@@ -21,7 +21,7 @@ Aplicativo que faz uma requisição REST que recebe dados de previsão do tempo 
 
 <p float="left" align="center">
 <img alt="screenshot" width="30%" src="screenshots/screenshot-1.png"/>
-<img alt="screenshot" width="30%" src="screenshots/screenshot-2.png"/>
+<img alt="screenshot" width="30%" src="screenshots/screenshot-2.png"/><br>
 <img alt="screenshot" width="30%" src="screenshots/screenshot-3.jpg"/>
 <img alt="screenshot" width="30%" src="screenshots/screenshot-4.jpg"/>
 </p>
